@@ -13,18 +13,23 @@ let puzzle = '';
 let guessedLetters = [];
 
 async function loadGameState(){
-	const result = await octokit.repos.getContent({
-		owner,
-		repo,
-		path: 'puzzle.dat',
-		ref: 'hangman',
-	});
-	let content = Buffer.from(result.data.content, 'base64').toString();
-	content = cryptr.decrypt(content);
-	content = JSON.parse(content);
+	try {
+		const result = await octokit.repos.getContent({
+			owner,
+			repo,
+			path: 'puzzle.dat',
+			ref: 'hangman',
+		});
+		let content = Buffer.from(result.data.content, 'base64').toString();
+		content = cryptr.decrypt(content);
+		content = JSON.parse(content);
 
-	puzzle = content.puzzle;
-	guessedLetters = content.guessedLetters;
+		puzzle = content.puzzle;
+		guessedLetters = content.guessedLetters;
+	} catch (e) {
+		// start new game
+		resetGame();
+	}
 }
 
 
@@ -70,7 +75,7 @@ async function resetGame() {
 	let content = Buffer.from(result.data.content, 'base64').toString();
 	lines = content.split('\n');
 
-	puzzle = lines[Math.rand(Math.floor(Math.random() * lines.length))];
+	puzzle = lines[Math.floor(Math.random() * lines.length)];
 }
 
 function generatePuzzleLinks() {

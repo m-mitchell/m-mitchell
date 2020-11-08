@@ -1,0 +1,22 @@
+name: Play_Game
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: '* * * * *'
+
+jobs:
+  play:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: node index.js
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          ENCRYPT_KEY: ${{secrets.ENCRYPT_KEY}}

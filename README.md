@@ -1,9 +1,9 @@
 
 # Guess the Word
 
-E\-\-E\-\-\-E
+EM\-E\-\-\-E
 
-Guessed letters: E
+Guessed letters: E, M
 
  [A](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+A&body=Just+push+%27Submit+new+issue%27.)
  [B](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+B&body=Just+push+%27Submit+new+issue%27.)
@@ -17,7 +17,7 @@ Guessed letters: E
  [J](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+J&body=Just+push+%27Submit+new+issue%27.)
  [K](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+K&body=Just+push+%27Submit+new+issue%27.)
  [L](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+L&body=Just+push+%27Submit+new+issue%27.)
- [M](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+M&body=Just+push+%27Submit+new+issue%27.)
+ M
  [N](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+N&body=Just+push+%27Submit+new+issue%27.)
  [O](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+O&body=Just+push+%27Submit+new+issue%27.)
  [P](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+P&body=Just+push+%27Submit+new+issue%27.)

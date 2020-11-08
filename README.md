@@ -3,13 +3,13 @@
 
 
 
-Guessed letters: E, R
+Guessed letters: 
 
  [A](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+A&body=Just+push+%27Submit+new+issue%27.)
  [B](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+B&body=Just+push+%27Submit+new+issue%27.)
  [C](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+C&body=Just+push+%27Submit+new+issue%27.)
  [D](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+D&body=Just+push+%27Submit+new+issue%27.)
- E
+ [E](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+E&body=Just+push+%27Submit+new+issue%27.)
  [F](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+F&body=Just+push+%27Submit+new+issue%27.)
  [G](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+G&body=Just+push+%27Submit+new+issue%27.)
  [H](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+H&body=Just+push+%27Submit+new+issue%27.)
@@ -22,7 +22,7 @@ Guessed letters: E, R
  [O](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+O&body=Just+push+%27Submit+new+issue%27.)
  [P](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+P&body=Just+push+%27Submit+new+issue%27.)
  [Q](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+Q&body=Just+push+%27Submit+new+issue%27.)
- R
+ [R](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+R&body=Just+push+%27Submit+new+issue%27.)
  [S](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+S&body=Just+push+%27Submit+new+issue%27.)
  [T](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+T&body=Just+push+%27Submit+new+issue%27.)
  [U](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+U&body=Just+push+%27Submit+new+issue%27.)

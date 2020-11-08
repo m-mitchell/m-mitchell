@@ -1,9 +1,9 @@
 
 # Guess the Word
 
-EMBE\-\-\-E
+EMBEZZ\-E
 
-Guessed letters: E, M, B
+Guessed letters: E, M, B, Z
 
  [A](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+A&body=Just+push+%27Submit+new+issue%27.)
  B
@@ -30,5 +30,5 @@ Guessed letters: E, M, B
  [W](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+W&body=Just+push+%27Submit+new+issue%27.)
  [X](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+X&body=Just+push+%27Submit+new+issue%27.)
  [Y](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+Y&body=Just+push+%27Submit+new+issue%27.)
- [Z](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+Z&body=Just+push+%27Submit+new+issue%27.)
+ Z
 	

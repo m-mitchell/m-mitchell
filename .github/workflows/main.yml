@@ -1,11 +1,7 @@
 name: Play_Game
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-  schedule:
-    - cron: '* * * * *'
+  issues:
+    types: [opened]
 
 jobs:
   play:

@@ -1,7 +1,7 @@
 
 # Guess the Word
 
-\-\-\-\-\-\-\-\-\-\-
+\-\-\-\-\-\-\-\-
 
 Guessed letters: 
 

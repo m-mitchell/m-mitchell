@@ -18,7 +18,7 @@ async function loadGameState(){
 			owner,
 			repo,
 			path: 'puzzle.dat',
-			ref: 'hangman',
+			ref: 'main',
 		});
 		let content = Buffer.from(result.data.content, 'base64').toString();
 		content = cryptr.decrypt(content);
@@ -44,7 +44,7 @@ async function saveGameState(message){
 	const result = await octokit.repos.getContent({
 		owner,
 		repo,
-		ref: 'hangman',
+		ref: 'main',
 		path: 'puzzle.dat',
 	});
 	let sha = result.data.sha;
@@ -52,7 +52,7 @@ async function saveGameState(message){
 	return octokit.repos.createOrUpdateFileContents({
         owner,
 		repo,
-		branch: 'hangman',
+		branch: 'main',
 		path: 'puzzle.dat',
 		message: message,
 		content,
@@ -70,7 +70,7 @@ async function resetGame() {
 		owner,
 		repo,
 		path: 'wordlist.dat',
-		ref: 'hangman',
+		ref: 'main',
 	});
 	let content = Buffer.from(result.data.content, 'base64').toString();
 	lines = content.split('\n');
@@ -118,7 +118,7 @@ ${generatePuzzleLinks()}
 	const result = await octokit.repos.getContent({
 		owner,
 		repo,
-		ref: 'hangman',
+		ref: 'main',
 		path: 'README.md',
 	});
 	let sha = result.data.sha;
@@ -126,7 +126,7 @@ ${generatePuzzleLinks()}
 	return octokit.repos.createOrUpdateFileContents({
         owner,
 		repo,
-		branch: 'hangman',
+		branch: 'main',
 		path: 'README.md',
 		message: message,
 		content,

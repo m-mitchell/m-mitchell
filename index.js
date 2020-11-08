@@ -1,7 +1,7 @@
-const { Octokit } = require("@octokit/rest");
+const { Octokit } = require("@octokit/action");
 const Cryptr = require('cryptr');
 
-const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
+const octokit = new Octokit();
 const owner = 'm-mitchell';
 const repo = 'm-mitchell';
 const committer = {

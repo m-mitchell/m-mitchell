@@ -17,8 +17,7 @@ async function loadGameState(){
 		const result = await octokit.repos.getContent({
 			owner,
 			repo,
-			path: 'puzzle.dat',
-			ref: 'main',
+			path: 'puzzle.dat'
 		});
 		let content = Buffer.from(result.data.content, 'base64').toString();
 		content = cryptr.decrypt(content);
@@ -28,7 +27,8 @@ async function loadGameState(){
 		guessedLetters = content.guessedLetters;
 	} catch (e) {
 		// start new game
-		resetGame();
+		console.log(e);
+		await resetGame();
 	}
 }
 
@@ -44,7 +44,6 @@ async function saveGameState(message){
 	const result = await octokit.repos.getContent({
 		owner,
 		repo,
-		ref: 'main',
 		path: 'puzzle.dat',
 	});
 	let sha = result.data.sha;
@@ -52,7 +51,6 @@ async function saveGameState(message){
 	return octokit.repos.createOrUpdateFileContents({
         owner,
 		repo,
-		branch: 'main',
 		path: 'puzzle.dat',
 		message: message,
 		content,
@@ -69,13 +67,13 @@ async function resetGame() {
 	const result = await octokit.repos.getContent({
 		owner,
 		repo,
-		path: 'wordlist.dat',
-		ref: 'main',
+		path: 'wordlist.dat'
 	});
 	let content = Buffer.from(result.data.content, 'base64').toString();
 	lines = content.split('\n');
 
-	puzzle = lines[Math.floor(Math.random() * lines.length)];
+	puzzle = lines[Math.floor(Math.random() * (lines.length - 1))];
+	console.log(puzzle);
 }
 
 function generatePuzzleLinks() {
@@ -118,7 +116,6 @@ ${generatePuzzleLinks()}
 	const result = await octokit.repos.getContent({
 		owner,
 		repo,
-		ref: 'main',
 		path: 'README.md',
 	});
 	let sha = result.data.sha;
@@ -126,7 +123,6 @@ ${generatePuzzleLinks()}
 	return octokit.repos.createOrUpdateFileContents({
         owner,
 		repo,
-		branch: 'main',
 		path: 'README.md',
 		message: message,
 		content,
@@ -134,10 +130,6 @@ ${generatePuzzleLinks()}
 		author: committer,
 		sha
 	});
-
-}
-
-function getPuzzleString() {
 
 }
 
@@ -157,7 +149,9 @@ async function guessLetter(letter, issue) {
 		}
 	});
 	console.log(displayPuzzle);
+	console.log(puzzle);
 	if (finished) {
+		console.log('finished');
 		await resetGame();
 	}
 }

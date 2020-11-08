@@ -1,12 +1,12 @@
 
 # Guess the Word
 
-EM\-E\-\-\-E
+EMBE\-\-\-E
 
-Guessed letters: E, M
+Guessed letters: E, M, B
 
  [A](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+A&body=Just+push+%27Submit+new+issue%27.)
- [B](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+B&body=Just+push+%27Submit+new+issue%27.)
+ B
  [C](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+C&body=Just+push+%27Submit+new+issue%27.)
  [D](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+D&body=Just+push+%27Submit+new+issue%27.)
  E

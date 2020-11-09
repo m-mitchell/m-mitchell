@@ -1,23 +1,23 @@
 
 # Guess the Word
 
-EMBEZZLE
+\-\-\-\-\-\-\-\-
 
-Guessed letters: E, M, B, Z, L, G
+Guessed letters: 
 
  [A](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+A&body=Just+push+%27Submit+new+issue%27.)
- B
+ [B](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+B&body=Just+push+%27Submit+new+issue%27.)
  [C](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+C&body=Just+push+%27Submit+new+issue%27.)
  [D](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+D&body=Just+push+%27Submit+new+issue%27.)
- E
+ [E](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+E&body=Just+push+%27Submit+new+issue%27.)
  [F](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+F&body=Just+push+%27Submit+new+issue%27.)
- G
+ [G](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+G&body=Just+push+%27Submit+new+issue%27.)
  [H](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+H&body=Just+push+%27Submit+new+issue%27.)
  [I](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+I&body=Just+push+%27Submit+new+issue%27.)
  [J](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+J&body=Just+push+%27Submit+new+issue%27.)
  [K](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+K&body=Just+push+%27Submit+new+issue%27.)
- L
- M
+ [L](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+L&body=Just+push+%27Submit+new+issue%27.)
+ [M](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+M&body=Just+push+%27Submit+new+issue%27.)
  [N](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+N&body=Just+push+%27Submit+new+issue%27.)
  [O](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+O&body=Just+push+%27Submit+new+issue%27.)
  [P](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+P&body=Just+push+%27Submit+new+issue%27.)
@@ -30,5 +30,5 @@ Guessed letters: E, M, B, Z, L, G
  [W](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+W&body=Just+push+%27Submit+new+issue%27.)
  [X](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+X&body=Just+push+%27Submit+new+issue%27.)
  [Y](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+Y&body=Just+push+%27Submit+new+issue%27.)
- Z
+ [Z](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+Z&body=Just+push+%27Submit+new+issue%27.)
 	

@@ -20,7 +20,7 @@ async function loadGameState(){
 			path: 'puzzle.dat'
 		});
 		let content = Buffer.from(result.data.content, 'base64').toString();
-		content = cryptr.decrypt(content);
+		//content = cryptr.decrypt(content);
 		content = JSON.parse(content);
 
 		puzzle = content.puzzle;
@@ -38,7 +38,7 @@ async function saveGameState(message){
 		guessedLetters,
 		puzzle
 	});
-	content = cryptr.encrypt(content);
+	//content = cryptr.encrypt(content);
 	content = Buffer.from(content).toString('base64');
 
 	const result = await octokit.repos.getContent({

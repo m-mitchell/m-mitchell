@@ -1,11 +1,11 @@
 
 # Guess the Word
 
-G\-\-\-\-\-
+GA\-A\-\-
 
-Guessed letters: E, G
+Guessed letters: E, G, A
 
- [A](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+A&body=Just+push+%27Submit+new+issue%27.)
+ A
  [B](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+B&body=Just+push+%27Submit+new+issue%27.)
  [C](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+C&body=Just+push+%27Submit+new+issue%27.)
  [D](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+D&body=Just+push+%27Submit+new+issue%27.)

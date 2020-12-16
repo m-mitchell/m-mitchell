@@ -1,9 +1,9 @@
 
 # Guess the Word
 
-GALA\-\-
+GALAX\-
 
-Guessed letters: E, G, A, L
+Guessed letters: E, G, A, L, X
 
  A
  [B](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+B&body=Just+push+%27Submit+new+issue%27.)
@@ -28,7 +28,7 @@ Guessed letters: E, G, A, L
  [U](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+U&body=Just+push+%27Submit+new+issue%27.)
  [V](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+V&body=Just+push+%27Submit+new+issue%27.)
  [W](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+W&body=Just+push+%27Submit+new+issue%27.)
- [X](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+X&body=Just+push+%27Submit+new+issue%27.)
+ X
  [Y](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+Y&body=Just+push+%27Submit+new+issue%27.)
  [Z](https://github.com/m-mitchell/m-mitchell/issues/new?title=guess+Z&body=Just+push+%27Submit+new+issue%27.)
 	
